@@ -1,0 +1,30 @@
+.project > img {
+    width: 250px;
+    height: 180px;
+}
+.project {
+    margin : 5px;
+    width: 350;
+    height: 180px;
+    transition: transform 100ms ease-in-out;
+}
+.project:hover {
+    color: white;
+    background-color: red;
+    transform: scale(1.05);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+
+}
+.project__content {
+    padding: 10px;
+}
+.project__content > h3 {
+    padding-bottom: 5px;
+        
+}
+.project__content > p {
+    font-size: 20px;
+}

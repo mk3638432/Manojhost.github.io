@@ -1,0 +1,12 @@
+.experience {
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted red;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}

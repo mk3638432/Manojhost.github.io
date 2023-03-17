@@ -1,0 +1,20 @@
+.contact {
+   display: flex;
+   color: white;
+   flex-direction: column;
+   justify-content: center;
+   margin: 200px 0 100px;
+   align-items: center;
+   
+}
+.contact__container {
+    border: 1px solid rebeccapurple;
+    padding: 80px;
+
+}
+.contact > h1 {
+    margin: 20px;
+}
+.contact__container > p > span {
+    color: red;
+}

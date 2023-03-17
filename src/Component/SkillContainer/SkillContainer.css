@@ -1,0 +1,32 @@
+img {
+    width: 500px;
+    height: 400px;
+    margin-top: 10px;
+}
+.skillContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.skillContainer__text {
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+.skillContainer__text  > h2 {
+   font-size: 20px;
+   margin-bottom: 30px;
+   text-align: center;
+   color: red;
+}
+.skillContainer__skillSet > h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 15px;
+
+}
+.skillContainer__slider1 >div >  .MuiLinearProgress-barColorPrimary {
+    background-color: red;
+}

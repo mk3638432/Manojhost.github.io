@@ -1,0 +1,23 @@
+.experienceContainer {
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    margin: 200px 0;
+    position: relative;
+    
+}
+.experienceContainer > h1  {
+   color: white;
+   text-align: center;
+   padding-bottom: 50px;
+    
+}
+.experienceContainer__info {
+    /* background: url('https://th.bing.com/th/id/OIP.xKGBNE69AHBU5TdSVVfxSAHaFj?pid=ImgDet&rs=1'); */
+    display: flex;
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
