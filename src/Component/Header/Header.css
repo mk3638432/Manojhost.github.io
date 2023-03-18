@@ -49,3 +49,48 @@
     cursor: pointer;
     padding: 5px 15px;
 }
+.nav__icon {
+    display: none;
+} 
+
+/* MEDIA QUERY */
+@media screen and (max-width: 768px) {
+    .header__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex:0.9;      
+    }
+    .header__right{
+        display: block;
+        /* flex-direction: column; */
+        width: 100%;
+        top: 80px;
+        text-align: center;
+        padding: 20px;
+        position: absolute;
+        border-top: 2px solid saddlebrown;
+        border-collapse: collapse;
+        left: -110%;
+        
+    }
+    .header__right > a >h4 {
+        border: 2px solid salmon;
+        padding: 6px;
+        
+    }
+    .nav__icon {
+        display: inline-block;
+        text-align: end;
+        font-size: 24px;
+        
+    } 
+    .header__left > h1 {
+        color: aqua;
+        display: flex;
+        flex: 0.9;
+    }
+    .header__right.active {
+        left: -7%;
+    } 
+}

@@ -30,3 +30,14 @@ img {
 .skillContainer__slider1 >div >  .MuiLinearProgress-barColorPrimary {
     background-color: red;
 }
+
+@media screen and (max-width : 768px) {
+    img {
+      max-width: 150px;
+      max-height: 100px;
+    }
+    .skillContainer__text {
+        display: flex;
+        flex-direction: column;
+    }
+}

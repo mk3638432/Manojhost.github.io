@@ -23,3 +23,5 @@ const Project = ({image , title, desc ,link}) => {
 }
 
 export default Project
+
+

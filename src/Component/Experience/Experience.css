@@ -12,7 +12,6 @@
     
 }
 .experienceContainer__info {
-    /* background: url('https://th.bing.com/th/id/OIP.xKGBNE69AHBU5TdSVVfxSAHaFj?pid=ImgDet&rs=1'); */
     display: flex;
     /* background-position: center;
     background-repeat: no-repeat;
@@ -20,4 +19,15 @@
     align-items: center;
     justify-content: space-evenly;
     
+}
+
+@media screen and (max-width : 768px) {
+    .experienceContainer > h1 {
+        color: yellow;
+    }
+    .experienceContainer__info {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
 }

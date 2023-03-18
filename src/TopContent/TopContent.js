@@ -9,7 +9,7 @@ const TopContent = () => {
         <p>
           A Prosfional Web Devoloper</p>
       
-        <a> 
+        <a href='https://docs.google.com/document/d/1uKhkEWKAjC9RaPbCCY1GxummVQ7hXEQHU6djgOsfCOs/edit?usp=drivesdk'> 
             <button className='topContent__downloadButton'>Download CV</button>
 
         </a>

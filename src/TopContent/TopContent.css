@@ -1,7 +1,7 @@
 .topContent {
     color: white;
     position: relative;
-    
+   
     
 }
 .topContent__container {
@@ -55,4 +55,15 @@
     color: black;
     background-color: white;
     border: 1px solid white;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width : 768px){
+    .topContent  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right:100px;
+        
+    }
 }
