@@ -23,7 +23,7 @@ const Header = () => {
          <Link to='contact' smooth={true} duration={500} > 
          <h4>Contact</h4>
          </Link>
-         <h4 className='header__rightButton'>Join with MA</h4>
+         {/* <h4 className='header__rightButton'>Join with MA</h4> */}
         </div>
         
     </div>

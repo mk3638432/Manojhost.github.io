@@ -14,7 +14,7 @@ const SkillContainer = () => {
         <div className='skillContainer__skillSet'> 
             <h4>REACT</h4>
             <div className='skillContainer__slider skillContainer__slider1'> </div>
-            <LinerProgress variant='determinate' value={90}/>
+            <LinerProgress variant='determinate' value={65}/>
         </div>
         <div className='skillContainer__skillSet'> 
             <h4>JAVASCRIPT</h4>
@@ -25,6 +25,16 @@ const SkillContainer = () => {
             <h4>REDUX</h4>
             <div className='skillContainer__slider skillContainer__slider3'> </div>
             <LinerProgress variant='determinate' value={50}/>
+        </div>
+        <div className='skillContainer__skillSet'> 
+            <h4>HTML</h4>
+            <div className='skillContainer__slider skillContainer__slider3'> </div>
+            <LinerProgress variant='determinate' value={90}/>
+        </div>
+        <div className='skillContainer__skillSet'> 
+            <h4>CSS</h4>
+            <div className='skillContainer__slider skillContainer__slider3'> </div>
+            <LinerProgress variant='determinate' value={80}/>
         </div>
          </div>
     </Element>

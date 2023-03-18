@@ -12,7 +12,7 @@ const ContactBox = () => {
                 Email : <span>mk3638432@gmail.com</span>
             </p>
             <p> 
-                GitHub UserName : <span>@manojkumar1093 </span>
+                Mobile: <span> 8668382744 </span>
             </p>
             {/* <div className='conact__icon'>
              <a href='#' > */}
